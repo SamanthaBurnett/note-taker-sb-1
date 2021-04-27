@@ -1,5 +1,5 @@
 <div class="note-page">
-  <h1>Notes</h1>
+  <h1><%= current_user.username%>'s Notes</h1>
 
   <%= link_to '+ New Note', new_note_path, class: 'btn btn-primary btn-sm my-3 note-btn' %>
 
