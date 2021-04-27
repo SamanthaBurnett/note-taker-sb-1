@@ -3,10 +3,26 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .note-page {
 	padding: 0px 50px;
-	background-image: url(image_path("Blue-Pink-Background.jpg"));
 }
 
 .note-card {
 	background-color: #0cacdc;
 	color: white !important;
+}
+
+.note-btn {
+	color: white !important;
+}
+
+.edit-form {
+	padding: 0px 25px;
+}
+
+.form-field {
+	color: #0cacdc;
+	font-weight: bold;
+}
+
+.edit-option {
+	color: #0cacdc !important;
 }
